@@ -199,18 +199,9 @@ var manav= meyveler.concat(sebzeler);
 			4. elde edilen string döndürülecek
  */
 
-function emojileriDonustur(cumle,emojiler) {
-  let emojiKeys = Object.keys(emojiler);
-let emojiValues = Object.values(emojiler);
-  let duzenliCumle = cumle.toLowerCase();
-let DonusmusCumle= duzenliCumle;
-for (i=0;i<emojiKeys.length;i++) {
-DonusmusCumle = DonusmusCumle.replaceAll(emojiKeys[i],emojiValues[i]);
+function emojileriDonustur(/* kodlar buraya */) {
+  /* kodlar buraya */
 }
-  return DonusmusCumle;
-}
-console.log(emojileriDonustur("deneme deneme :) deneme :) deneme :( deneme :o <3  , :(", emojiler))
-
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 function sa() {
